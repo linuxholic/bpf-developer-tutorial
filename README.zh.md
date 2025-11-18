@@ -56,10 +56,12 @@ GPU:
 - [lesson xpu/npu-kernel-driver](src/xpu/npu-kernel-driver/README.zh.md) eBPF 实例教程：跟踪 Intel NPU 内核驱动操作
 - [xpu flamegraph](src/xpu/flamegraph/README.zh.md) eBPF 示例：使用 CUPTI 构建 GPU 火焰图分析器
 - [lesson xpu/gpu-kernel-driver](src/xpu/gpu-kernel-driver/README.zh.md) eBPF 实例教程：使用内核跟踪点监控 GPU 驱动活动
+
 调度器:
 
 - [lesson 44-scx-simple](src/44-scx-simple/README.zh.md) eBPF 教程：BPF 调度器入门
 - [lesson 45-scx-nest](src/45-scx-nest/README.zh.md) eBPF 示例教程：实现 `scx_nest` 调度器
+
 网络:
 
 - [lesson 23-http](src/23-http/README.zh.md) 通过 eBPF socket filter 或 syscall trace 追踪 HTTP 请求等七层协议 - eBPF 实践教程
@@ -67,6 +69,7 @@ GPU:
 - [lesson 41-xdp-tcpdump](src/41-xdp-tcpdump/README.zh.md) eBPF 示例教程：使用 XDP 捕获 TCP 信息
 - [lesson 42-xdp-loadbalancer](src/42-xdp-loadbalancer/README.zh.md) eBPF 开发者教程： 简单的 XDP 负载均衡器
 - [lesson 46-xdp-test](src/46-xdp-test/README.zh.md) eBPF 实例教程：构建高性能 XDP 数据包生成器
+
 安全:
 
 - [lesson 24-hide](src/24-hide/README.zh.md) eBPF 开发实践：使用 eBPF 隐藏进程或文件信息
@@ -75,6 +78,7 @@ GPU:
 - [lesson 27-replace](src/27-replace/README.zh.md) 替换任意程序读取或者写入的文本
 - [lesson 28-detach](src/28-detach/README.zh.md) 在应用程序退出后运行 eBPF 程序：eBPF 程序的生命周期
 - [lesson 34-syscall](src/34-syscall/README.zh.md) eBPF 开发实践：使用 eBPF 修改系统调用参数
+
 特性:
 
 - [lesson 35-user-ringbuf](src/35-user-ringbuf/README.zh.md) eBPF开发实践：使用 user ring buffer 向内核异步发送信息
@@ -84,9 +88,8 @@ GPU:
 - [features bpf_wq](src/features/bpf_wq/README.zh.md) eBPF 教程：BPF 工作队列用于异步可睡眠任务
 - [features bpf_iters](src/features/bpf_iters/README.zh.md) eBPF 教程：BPF 迭代器用于内核数据导出
 - [features bpf_arena](src/features/bpf_arena/README.zh.md) eBPF 实例教程：BPF Arena 零拷贝共享内存
-特性:
-
 - [lesson 49-hid](src/49-hid/README.zh.md) eBPF 教程：无需内核补丁修复故障的 HID 设备
+
 Android:
 
 - [lesson 22-android](src/22-android/README.zh.md) 在 Android 上使用 eBPF 程序
